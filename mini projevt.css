@@ -1,10 +1,19 @@
 body
 {
     background-image: url("yo.jpg");
+        display: flex;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      
 }
-
+canvas {
+  width:98vmin;
+  height:98vmin;
+}
 h2
 {
     font-family: cursive;
-    <p style="color:red"This is a paragraph.</p>
+    color: cornflowerblue;
 }
